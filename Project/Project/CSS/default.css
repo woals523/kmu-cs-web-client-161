@@ -1,0 +1,225 @@
+/*초기화 및 기본틀*/
+* { margin : 0; padding : 0;
+     font-family:"Times new Roman", Times, serif,'맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;}
+ul { list-style-type: none; }
+a { text-decoration: none; }
+body {
+	background-image: url('../image/background.jpg');
+	background-repeat: repeat;
+    background-attachment: fixed;
+	margin:0;
+	padding:0;
+	font-size: 0.75em;
+	line-height: 1.2em;
+	color: black;
+}
+img {
+	border : none;
+}
+h1 {
+	color: #747474;
+	margin : 20px 10px 10px 10px;
+}
+#wrap {
+	background-color : white;
+	width:970px;
+	text-align:left;
+	margin:0 auto;
+    min-height : 760px;
+    position: relative;
+}
+
+/*헤더*/
+header {
+	width : 970px;
+	height : 180px;
+	margin : 0;
+	padding : 0;
+	background-color : #E4E4E0;
+}
+
+#logo {
+	float:left;
+	width:140px;
+	margin: 10px 25px ;	
+	position: relative;
+}
+
+#top_quick{
+	float:right;
+	margin:30px 64px 0 0;
+	font-size: 12px;
+	word-spacing: 10px;
+	font-weight :700;
+	position: relative;
+}
+#top_quick a {
+	text-decoration:none;
+	color: #5D5D5D;
+}
+#top_quick a:hover {
+	color : #A6A6A6;
+}
+#top_menu_left{
+	border-radius:0 5px 5px 0;
+	margin: 85px 0 0 0;
+	width :390px;
+	height: 40px;
+	float:left;
+    position: relative;        
+	/*그라디언트*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,ea2803+8,ea2803+8,ff6600+32,e86c57+69,e86c57+96,e86c57+99,ff6600+99,c72200+100;Red+Gloss */
+	background: rgb(243,197,189); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(243,197,189,1) 0%, rgba(234,40,3,1) 8%, rgba(234,40,3,1) 8%, rgba(255,102,0,1) 32%, rgba(232,108,87,1) 69%, rgba(232,108,87,1) 96%, rgba(232,108,87,1) 99%, rgba(255,102,0,1) 99%, rgba(199,34,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(243,197,189,1) 0%,rgba(234,40,3,1) 8%,rgba(234,40,3,1) 8%,rgba(255,102,0,1) 32%,rgba(232,108,87,1) 69%,rgba(232,108,87,1) 96%,rgba(232,108,87,1) 99%,rgba(255,102,0,1) 99%,rgba(199,34,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(243,197,189,1) 0%,rgba(234,40,3,1) 8%,rgba(234,40,3,1) 8%,rgba(255,102,0,1) 32%,rgba(232,108,87,1) 69%,rgba(232,108,87,1) 96%,rgba(232,108,87,1) 99%,rgba(255,102,0,1) 99%,rgba(199,34,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+}
+#top_menu_right{
+	border-radius:5px 0 0 5px;
+	margin: 40px 0 0 0;
+	width :390px;
+	height: 40px;
+	float:left;
+    position: relative;        
+	/*그라디언트*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,ea2803+8,ea2803+8,ff6600+32,e86c57+69,e86c57+96,e86c57+99,ff6600+99,c72200+100;Red+Gloss */
+	background: rgb(243,197,189); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(243,197,189,1) 0%, rgba(234,40,3,1) 8%, rgba(234,40,3,1) 8%, rgba(255,102,0,1) 32%, rgba(232,108,87,1) 69%, rgba(232,108,87,1) 96%, rgba(232,108,87,1) 99%, rgba(255,102,0,1) 99%, rgba(199,34,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(243,197,189,1) 0%,rgba(234,40,3,1) 8%,rgba(234,40,3,1) 8%,rgba(255,102,0,1) 32%,rgba(232,108,87,1) 69%,rgba(232,108,87,1) 96%,rgba(232,108,87,1) 99%,rgba(255,102,0,1) 99%,rgba(199,34,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(243,197,189,1) 0%,rgba(234,40,3,1) 8%,rgba(234,40,3,1) 8%,rgba(255,102,0,1) 32%,rgba(232,108,87,1) 69%,rgba(232,108,87,1) 96%,rgba(232,108,87,1) 99%,rgba(255,102,0,1) 99%,rgba(199,34,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+}
+.navi-bar-left {
+	width: 120px;
+	height: 30px; 
+	line-height: 30px;
+	float:right;
+	position: relative;
+	font-family: Arial, '맑은 고딕' sans-serif;
+	font-size: 18px;
+	font-weight : 600;
+	display: block;
+	text-align: center;
+	padding: 5px 30px;
+}
+.navi-bar-right {
+	width: 120px;
+	height: 30px; 
+	line-height: 30px;
+	float:left;
+	position: relative;
+	font-family: Arial, '맑은 고딕' sans-serif;
+	font-size: 18px;
+	font-weight : 600;
+	display: block;
+	text-align: center;
+	padding: 5px 30px;
+}
+#navi-bar a{
+	color:white;
+}
+#navi-bar:hover{
+	background-image : url('../image/white.gif');
+	background-repeat: repeat-x;
+	padding-top:6px;
+	background-position: bottom;
+}
+#main_sec img{
+	width:970px;
+}
+.btw_hm{
+	width:970px; 
+	height:15px; 
+	background-image: url('../image/grayblack.png');
+	float:left;
+	position: relative;
+}
+
+/*풋터*/
+footer {
+	background-color : #E4E4E0;
+	width : 970px;
+	height : 140px;
+	float : left;	
+	position: relative;
+}
+#footer_logo{
+	float : left;
+	margin : 20px 10px 0 50px;
+}
+#footer_logo img{
+	width: 150px;
+}
+#footer_content span{
+	color: #353535;
+	font-weight : 600;
+}
+#footer_content{
+	float:left;
+	padding : 40px 50px 50px 30px;
+	color : #5D5D5D;
+	word-spacing :5px;
+}
+#footer_content td{
+	padding : 2px 0;
+}
+#footer_link{
+	margin :50px 50px 0 0 ;
+	float:right;
+}
+
+/*login & join*/
+#lj_sec{
+	float :left;
+	width : 970px;
+	min-height : 500px;
+	background-color : white;
+}
+#login{
+	margin : 100px 230px;
+	width:500px;
+	min-height : 200px;
+	float : left;
+	border-radius : 10px;
+	border : 1px solid gray;
+}
+#login_table {
+	margin : 20px 35px; 
+	width :400px;
+	height : 100px;
+	float : left;	
+}
+#login_table td{
+	font-size : 1.2em;
+	text-align :left;
+	padding :10px 0;
+	color :#3A3A3A;
+}
+.btn{
+	font-size : 1.3em;
+	width :80px;
+	text-align : center;
+	color :#3A3A3A;
+}
+#join{
+	margin : 20px 35px; 
+	width :470px;
+	float : left;
+	font-size : 15px;
+}
+#join td{
+	font-size : 1.0em;
+	text-align :center;
+	padding :10px 0;
+	color :#3A3A3A;
+}
+#join input{
+	font-size :1.0em;
+	width :280px;
+	
+}
+
+

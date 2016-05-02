@@ -1,0 +1,258 @@
+#sub_wrap{
+	width :970px;
+	margin:0;
+	padding:0;
+	float : left;
+	background-color : white;
+}
+#sub_menu{
+    width:150px;
+    float:left;
+    margin:70px 10px 10px  50px;
+    font-family: "Times new Roman", Times, serif,'맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;;
+    font-size :14px;
+   
+}
+#sub_menu ul{
+    margin : 20px 0 0 10px;
+}
+#sub_menu img{
+	width : 100px;
+}
+#sub_menu a{
+    text-decoration: none;
+    color : #3A3A3A;
+    font-weight :600;
+    display: block;
+    height: 15px;
+    width: 120px;
+    padding: 7px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: gray;
+    background-image: url('../image/bullet.gif');
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+#sub_menu a:hover {
+    background-image: url('../image/bullet_orange.gif');
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    color: orange;
+}
+#sub_sec {
+	width :700px;
+	margin : 10px 30px 10px 5px;
+	float : right ;
+	position : relative;
+}
+
+/*인사말페이지*/
+#greeting{
+	display:block;
+	margin : 20px 0px 20px 60px;
+	width :600px;
+	float :left;
+}
+#hello{
+	width:970px;
+	float:left;
+}
+#hello{
+	letter-spacing : 0.1em;
+	word-spacing:1.5px;
+}
+#hello h2{
+	margin : 10px 0 10px 50px;
+}
+#hello h2:nth-child(2){
+	color : #5D5D5D;
+	font-weight : 540;
+}
+#hello p{
+	margin : 20px 0 20px 50px;
+	width : 600px;
+	color : #5D5D5D;
+}
+
+/*캠퍼스지도 페이지*/
+#campusmap table{
+	border-collapse : collapse;
+	width :600px;
+	margin : 20px 0 20px 50px;
+}
+#campusmap caption{
+	text-align : left;
+	font-size : 1.5em;
+	margin :10px 0 10px 3px;
+	font-weight :600;
+	color : #3A3A3A;
+}
+#campusmap th {
+	text-align : center;
+	padding : 5px 0;
+	color : #3A3A3A;
+}
+#campusmap td{
+	text-align : center;
+	padding : 4px 0;
+	color : #3A3A3A;
+}
+#campusmap td:nth-child(odd){
+	width : 100px;
+}
+#campusmap td:nth-child(even){
+	width : 200px;
+}
+#campusmap tr:first-child{
+	border-top : 1px solid #3A3A3A;;
+	border-bottom : 1px solid #3A3A3A;;
+	background-color : #D5D5D5;
+}
+#campusmap tr:last-child{
+	border-bottom : 1px solid #3A3A3A;;
+}
+
+/*대동제 행사 부분*/
+#poster img {
+	width:650px; 
+	display:block; 
+	margin : 20px 20px;
+	float : left;
+}
+#poster h2{
+	margin : 15px 0 15px 50px;
+	text-align:center;
+	width : 600px;
+	color : #5D5D5D;
+}
+#poster h3{
+	margin : 20px 0 20px 50px;
+	text-align:center;
+	width : 600px;
+	color : #5D5D5D;
+}
+#poster p{
+	margin : 20px 0 20px 50px;
+	text-align:center;
+	width : 600px;
+	color : #5D5D5D;
+	line-height: 1.5em;
+}
+/*주점*/
+#jujum table{
+	margin : 20px 25px;
+	width :650px;
+	float :left;
+	border-collapse:collapse;
+}
+#jujum caption{
+	font-size :1.3em;
+	font-weight :bold;
+	text-align : left;
+	margin : 10px 0;
+}
+#jujum img{
+	margin :10px;
+}
+#jujum td{
+	text-align : center;
+	border : 1px dashed #5D5D5D;
+	font-size : 1.3em;
+	color :#5D5D5D;
+	line-height: 2em;
+}
+/*오시는길*/
+#coming h4 {
+	width : 650px;
+	margin : 20px 0 0 50px;
+	padding : 0 0 5px 0;
+	border-bottom: 1px solid #BC602B;
+	color : #862A00;
+}
+#coming table{
+	border-collapse : collapse;
+	width :300px;
+	margin : 20px 0 20px 50px;
+	float : left;
+}
+#coming th {
+	text-align : center;
+	padding : 5px 0;
+	color : #CC723D;
+}
+#coming td{
+	text-align : center;
+	padding : 4px 0;
+	color : #CE723D;
+	line-height :1.5em;
+}
+#coming tr:first-child{
+	border-top : 1px solid #BC602B;
+	border-bottom : 1px solid #FFA873;
+	background-color : #FAECC5;
+}
+#coming tr:last-child{
+	height :90px;
+	border-bottom : 1px solid #BC602B;
+	background-color : #FFF2E6;
+}
+
+/*주차장안내*/
+#parking h2{
+	margin : 15px 0 15px 50px;
+	width : 600px;
+	color : #5D5D5D;
+}
+#parking h3{
+	margin : 20px 0 20px 50px;
+	width : 600px;
+	color : #5D5D5D;
+}
+#parking p{
+	margin : 20px 0 20px 50px;
+	width : 600px;
+	color : #5D5D5D;
+	line-height: 1.5em;
+}
+#parking table{
+	border-collapse : collapse;
+	width :600px;
+	margin : 20px 0 20px 50px;
+}
+#parking caption{
+	text-align : left;
+	font-size : 1.2em;
+	margin :10px 0 10px 3px;
+	font-weight :600;
+	color : #5D5D5D;
+}
+#parking th {
+	text-align : center;
+	padding : 5px 0;
+	color : #3A3A3A;
+	letter-spacing :0.3em;
+}
+#parking td{
+	text-align : center;
+	padding : 6px 0;
+	color : #3A3A3A;
+	letter-spacing :0.1em;
+}
+#parking td:nth-child(odd){
+	width : 200px;
+}
+#parking td:nth-child(even){
+	width : 100px;
+}
+#parking tr:first-child{
+	border-top : 1px solid #3A3A3A;;
+	border-bottom : 1px solid #3A3A3A;;
+	background-color : #D5D5D5;
+}
+#parking tr:last-child{
+	border-bottom : 1px solid #3A3A3A;
+}
+.strong {
+	font-weight :bold;
+}
