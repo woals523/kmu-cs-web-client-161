@@ -1,0 +1,27 @@
+#table{
+	width : 100%;
+	border-collapse: collapse;	
+	color :#D2691E;
+}
+
+#table th{
+	font-family : arial;
+	color : #5F9EA0;
+	text-align : left;
+	padding : 15px 10px;
+	border : 1px solid black;
+}
+#table tr:nth-child(2n){
+	background-color:gray;
+}
+#table td{
+	text-align: center;
+	padding : 15px;
+	font-family : arial;
+	font-weight : bold;
+	border : 1px solid black;
+}
+#table tr:nth-child(n):hover{
+	background-color: #4B0082;
+	color : #00FFFF;
+}
